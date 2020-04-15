@@ -1,0 +1,181 @@
+
+.fac h1{
+   
+    color: white;
+     padding-left: 120px;
+}
+.first
+{
+    width: 100%;
+    min-height: 87px;
+
+    background-color: #3a5998;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.centre
+{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+   
+}
+.contenu
+{
+   margin-left: 300px;
+
+}
+
+.three p 
+{
+   padding-top:  25px;
+    padding-left: 1px;
+}
+
+.two
+{
+    margin-top: -80px;
+    padding: 65px;
+}
+.two h4
+{
+    padding-left: 50px;
+    margin-top: -40px;
+}
+
+pre
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1px;
+
+}
+.for
+{
+    color: rgba(240, 238, 234, 0.603);
+
+}
+h3
+{
+   padding-left: 80px;
+   margin-bottom: 60px;
+   margin-top: 50px;
+   
+}
+.but
+{  
+    padding-left: 310px;
+    margin-top: -18px;
+
+}
+button
+{
+    background-color: rgba(78, 105, 187, 0.74);
+    color: white;
+    border-radius: 8% 8%;
+}
+p
+{
+    padding-left: 60px;
+    margin-top: -40px;
+} p ,h3
+{
+    font-size: 25px;
+}
+p ,h2 
+{
+    font-size:25px;
+}
+select
+{
+    font-size: 25px;
+}
+.input
+{
+   padding-right: -15px;
+   
+}
+.global
+{
+   padding: 0%; 
+    
+}
+body{
+background-color: rgba(223, 230, 238, 0.836);
+}
+.class{
+    padding-top: 5px;
+    text-align: center;
+    width: 120px;
+   height: 22px;
+   background-color: rgb(48, 139, 48);
+   color: ghostwhite;
+   border-radius: 6% 6%;
+   margin-top: 15px;
+}
+.five{
+    margin-top: 15px;
+}
+@media screen and (max-width:1000px) 
+{
+    .first
+{
+    margin: auto;
+    justify-content: space-around;
+    isplay: flex;
+    lex-direction: column;
+    margin: 0%;
+
+}
+.three
+{
+    margin-left: 100px;
+}
+.two , .tt
+{
+    margin-left: 40px;
+}
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.contenu
+{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+}
+@media screen and (max-width:1024px)
+{
+   
+    p ,h3 
+    { 
+        font-size: 15px;
+    }
+    p ,h2 
+    {
+    font-size: 15px;
+    }
+    select
+    {
+    font-size: 15px;
+    }
+    .first 
+    {
+        flex-direction: column;
+    } 
+
+}
+@media screen and (max-width:380px)
+{
+    .global
+    {
+       width: 500px;
+    }
+}
